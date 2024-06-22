@@ -38,6 +38,7 @@ Algoritmo ExamenII
                     FinSi
 					
                 FinSi
+				Escribir ""
 				Escribir "Preciona cualquier tecla para volver al Menu"
 				Esperar Tecla
 				LimpiarPantalla
