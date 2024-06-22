@@ -2,7 +2,6 @@ Algoritmo ExamenII
     Definir a, b, c, discriminante, x1, x2 como reales
     Definir opcion, numeroTabla, i como entero
 	
-    // Ciclo principal del menú
     Repetir
         Escribir "----------- MENÚ -----------"
         Escribir "-1. Fórmula cuadrática     -"
@@ -33,6 +32,7 @@ Algoritmo ExamenII
                         x1 = (-b + raiz(discriminante)) / (2*a)
                         x2 = (-b - raiz(discriminante)) / (2*a)
                         Escribir "Las soluciones son:"
+						Escribir ""
                         Escribir "x1 = ", x1
                         Escribir "x2 = ", x2
                     FinSi
