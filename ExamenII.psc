@@ -20,6 +20,7 @@ Algoritmo ExamenII
                 Si a = 0 Entonces
                     Escribir "Error: a debe ser distinto de cero para la fórmula cuadrática."
                 Sino
+					
                     Escribir "Ingrese el valor de b: "
                     Leer b
                     Escribir "Ingrese el valor de c: "
@@ -35,6 +36,7 @@ Algoritmo ExamenII
                         Escribir "x1 = ", x1
                         Escribir "x2 = ", x2
                     FinSi
+					
                 FinSi
 				Escribir "Preciona cualquier tecla para volver al Menu"
 				Esperar Tecla
@@ -42,6 +44,7 @@ Algoritmo ExamenII
 				
             Caso 2:
                 // Multiplicacion de tablas
+				Escribir ""
                 Escribir "Ingrese el número de tabla que desea ver: "
                 Leer numeroTabla
 				
@@ -50,13 +53,13 @@ Algoritmo ExamenII
                     Escribir numeroTabla, " x ", i, " = ", numeroTabla * i
                 FinPara
 				Escribir "Preciona cualquier tecla para volver al Menu"
+				
 				Esperar Tecla
 				LimpiarPantalla
 				
             Caso 3:
 				Escribir "Gracias por Utilizar nuestra aplicacion"
                 Escribir "Saliendo del programa..."
-                //esperar 1 Segundos
 				
             De Otro Modo:
                 Escribir "Opción no válida. Por favor, ingrese una opción válida."
