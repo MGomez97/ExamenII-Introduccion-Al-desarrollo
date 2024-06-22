@@ -25,10 +25,9 @@ Algoritmo ExamenII
                     Escribir "Ingrese el valor de c: "
                     Leer c
 					
-                    // Validación del discriminante
                     discriminante = b^2 - 4*a*c
                     Si discriminante < 0 Entonces
-                        Escribir "El discriminante es negativo, la raíz cuadrada no está definida en los reales."
+                        Escribir "La ecuación no tiene solución en los numeros reales."
                     Sino
                         x1 = (-b + raiz(discriminante)) / (2*a)
                         x2 = (-b - raiz(discriminante)) / (2*a)
@@ -37,7 +36,8 @@ Algoritmo ExamenII
                         Escribir "x2 = ", x2
                     FinSi
                 FinSi
-				esperar 2 Segundos
+				Escribir "Preciona cualquier tecla para volver al Menu"
+				Esperar Tecla
 				LimpiarPantalla
 				
             Caso 2:
@@ -49,15 +49,19 @@ Algoritmo ExamenII
                 Para i <- 1 Hasta 10 Con Paso 1 Hacer
                     Escribir numeroTabla, " x ", i, " = ", numeroTabla * i
                 FinPara
-                //Pausa()
+				Escribir "Preciona cualquier tecla para volver al Menu"
+				Esperar Tecla
+				LimpiarPantalla
 				
             Caso 3:
+				Escribir "Gracias por Utilizar nuestra aplicacion"
                 Escribir "Saliendo del programa..."
-                esperar 1 Segundos
+                //esperar 1 Segundos
 				
             De Otro Modo:
                 Escribir "Opción no válida. Por favor, ingrese una opción válida."
-                Esperar Tecla
+                esperar 2 Segundos
+				LimpiarPantalla
         FinSegun
     Hasta Que opcion = 3
 FinAlgoritmo
