@@ -53,6 +53,7 @@ Algoritmo ExamenII
                 Para i <- 1 Hasta 10 Con Paso 1 Hacer
                     Escribir numeroTabla, " x ", i, " = ", numeroTabla * i
                 FinPara
+				Escribir ""
 				Escribir "Preciona cualquier tecla para volver al Menu"
 				
 				Esperar Tecla
