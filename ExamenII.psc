@@ -1,5 +1,5 @@
 Algoritmo ExamenII
-    Definir a, b, c, discriminante, x1, x2 como reales
+    Definir a, b, c, vRaiz, x1, x2 como reales
     Definir opcion, numeroTabla, i como entero
 	
     Repetir
@@ -25,12 +25,12 @@ Algoritmo ExamenII
                     Escribir "Ingrese el valor de c: "
                     Leer c
 					
-                    discriminante = b^2 - 4*a*c
-                    Si discriminante < 0 Entonces
+                    vRaiz = b^2 - 4*a*c
+                    Si vRaiz < 0 Entonces
                         Escribir "La ecuación no tiene solución en los numeros reales."
                     Sino
-                        x1 = (-b + raiz(discriminante)) / (2*a)
-                        x2 = (-b - raiz(discriminante)) / (2*a)
+                        x1 = (-b + raiz(vRaiz)) / (2*a)
+                        x2 = (-b - raiz(vRaiz)) / (2*a)
                         Escribir "Las soluciones son:"
 						Escribir ""
                         Escribir "x1 = ", x1
